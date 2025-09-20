@@ -142,93 +142,85 @@ Points are awarded based on your belt level. Test points use difficulty weightin
 
 ---
 
-## Staff Test Descriptions
+<details>
+  <summary><strong>📖 Staff Test Descriptions (Click to expand)</strong></summary>
 
 <a name="test-overviewscreenb1stafftest-duedateiscorrectlyformattedforday"></a>
-<details>
-  <summary><strong>OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForDay</strong></summary>
+**OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForDay**
 
 Checks that the due date displays the day component with two digits (e.g., "02" instead of "2") in the "dd/MM/yyyy" format.
 
-</details>
+---
 
 <a name="test-overviewscreenb1stafftest-duedateiscorrectlyformattedformonth"></a>
-<details>
-  <summary><strong>OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForMonth</strong></summary>
+**OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForMonth**
 
 Checks that the due date displays the month component with two digits (e.g., "09" instead of "9") in the "dd/MM/yyyy" format.
 
-</details>
+---
 
 <a name="test-overviewscreenb1stafftest-duedateiscorrectlyformattedforyear"></a>
-<details>
-  <summary><strong>OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForYear</strong></summary>
+**OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForYear**
 
 Checks that the due date displays the year component with four digits (e.g., "2025" instead of "25") in the "dd/MM/yyyy" format.
 
-</details>
+---
 
 <a name="test-overviewscreenb1stafftest-todolistislazy"></a>
-<details>
-  <summary><strong>OverviewScreenB1StaffTest.todoListIsLazy</strong></summary>
+**OverviewScreenB1StaffTest.todoListIsLazy**
 
 Checks that the todo list is lazy loaded by creating 100 todos and confirming that the last one is not displayed without scrolling.
 
-</details>
+---
 
 <a name="test-navigationb1stafftest-canexittheappfrommapwithtwotaponbackbutton"></a>
-<details>
-  <summary><strong>NavigationB1StaffTest.canExitTheAppFromMapWithTwoTapOnBackButton</strong></summary>
+**NavigationB1StaffTest.canExitTheAppFromMapWithTwoTapOnBackButton**
 
 Checks that pressing the back button twice from the Map tab first returns to Overview and then exits the app.
 
-</details>
+---
 
 <a name="test-navigationb1stafftest-clickoncurrenttabdoesnotrecompose"></a>
-<details>
-  <summary><strong>NavigationB1StaffTest.clickOnCurrentTabDoesNotRecompose</strong></summary>
+**NavigationB1StaffTest.clickOnCurrentTabDoesNotRecompose**
 
 Checks that clicking the already-selected Overview tab does not recompose or reset the screen state (e.g., scroll position).
 
-</details>
+---
 
 <a name="test-navigationb1stafftest-navigatebackfromaddtodorestoresstate"></a>
-<details>
-  <summary><strong>NavigationB1StaffTest.navigateBackFromAddToDoRestoresState</strong></summary>
+**NavigationB1StaffTest.navigateBackFromAddToDoRestoresState**
 
 Checks that navigating to AddToDo and then back to Overview restores the previous Overview state, including scroll position.
 
-</details>
+---
 
 <a name="test-navigationb1stafftest-navigatebackonoverviewtabexitsapp"></a>
-<details>
-  <summary><strong>NavigationB1StaffTest.navigateBackOnOverviewTabExitsApp</strong></summary>
+**NavigationB1StaffTest.navigateBackOnOverviewTabExitsApp**
 
 Checks that pressing the system back button while on the Overview tab closes the app.
 
-</details>
+---
 
 <a name="test-navigationb1stafftest-navigatebetweentabsdonotrestorestate"></a>
-<details>
-  <summary><strong>NavigationB1StaffTest.navigateBetweenTabsDoNotRestoreState</strong></summary>
+**NavigationB1StaffTest.navigateBetweenTabsDoNotRestoreState**
 
 Checks that switching between Overview and Map tabs resets the Overview state (e.g., scroll position is lost), rather than restoring it.
 
-</details>
+---
 
 <a name="test-navigationb1stafftest-navigatebetweentabsdonotstack"></a>
-<details>
-  <summary><strong>NavigationB1StaffTest.navigateBetweenTabsDoNotStack</strong></summary>
+**NavigationB1StaffTest.navigateBetweenTabsDoNotStack**
 
 Checks that repeatedly switching between Overview and Map tabs does not create multiple stacked instances of the same screen, and pressing back exits the app.
 
-</details>
+---
 
 <a name="test-navigationb1stafftest-navigatetomapfrommapandpressbackgoestooverview"></a>
-<details>
-  <summary><strong>NavigationB1StaffTest.navigateToMapFromMapAndPressBackGoesToOverview</strong></summary>
+**NavigationB1StaffTest.navigateToMapFromMapAndPressBackGoesToOverview**
 
 Checks that tapping the Map tab twice keeps the user on the Map screen, and pressing back correctly returns to Overview instead of stacking Map.
+
+---
 
 </details>
 
