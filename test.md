@@ -40,6 +40,7 @@ Points are awarded based on your belt level. Test points use difficulty weightin
 
 ---
 
+<a name="public-tests"></a>
 <details>
   <summary><strong>Public Tests (Click to expand)</strong></summary>
 
@@ -86,6 +87,7 @@ Points are awarded based on your belt level. Test points use difficulty weightin
 
 ---
 
+<a name="staff-tests"></a>
 <details>
   <summary><strong>Staff Tests (Click to expand)</strong></summary>
 
@@ -108,6 +110,7 @@ Points are awarded based on your belt level. Test points use difficulty weightin
 
 ---
 
+<a name="user-stories"></a>
 <details>
   <summary><strong>User Stories (Click to expand)</strong></summary>
 
@@ -121,6 +124,7 @@ Points are awarded based on your belt level. Test points use difficulty weightin
 
 ---
 
+<a name="commit-messages"></a>
 <details>
   <summary><strong>Commit messages (Click to expand)</strong></summary>
 
@@ -141,57 +145,90 @@ Points are awarded based on your belt level. Test points use difficulty weightin
 ## Staff Test Descriptions
 
 <a name="test-overviewscreenb1stafftest-duedateiscorrectlyformattedforday"></a>
-### OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForDay
+<details>
+  <summary><strong>OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForDay</strong></summary>
 
 Checks that the due date displays the day component with two digits (e.g., "02" instead of "2") in the "dd/MM/yyyy" format.
 
+</details>
+
 <a name="test-overviewscreenb1stafftest-duedateiscorrectlyformattedformonth"></a>
-### OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForMonth
+<details>
+  <summary><strong>OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForMonth</strong></summary>
 
 Checks that the due date displays the month component with two digits (e.g., "09" instead of "9") in the "dd/MM/yyyy" format.
 
+</details>
+
 <a name="test-overviewscreenb1stafftest-duedateiscorrectlyformattedforyear"></a>
-### OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForYear
+<details>
+  <summary><strong>OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForYear</strong></summary>
 
 Checks that the due date displays the year component with four digits (e.g., "2025" instead of "25") in the "dd/MM/yyyy" format.
 
+</details>
+
 <a name="test-overviewscreenb1stafftest-todolistislazy"></a>
-### OverviewScreenB1StaffTest.todoListIsLazy
+<details>
+  <summary><strong>OverviewScreenB1StaffTest.todoListIsLazy</strong></summary>
 
 Checks that the todo list is lazy loaded by creating 100 todos and confirming that the last one is not displayed without scrolling.
 
+</details>
+
 <a name="test-navigationb1stafftest-canexittheappfrommapwithtwotaponbackbutton"></a>
-### NavigationB1StaffTest.canExitTheAppFromMapWithTwoTapOnBackButton
+<details>
+  <summary><strong>NavigationB1StaffTest.canExitTheAppFromMapWithTwoTapOnBackButton</strong></summary>
 
 Checks that pressing the back button twice from the Map tab first returns to Overview and then exits the app.
 
+</details>
+
 <a name="test-navigationb1stafftest-clickoncurrenttabdoesnotrecompose"></a>
-### NavigationB1StaffTest.clickOnCurrentTabDoesNotRecompose
+<details>
+  <summary><strong>NavigationB1StaffTest.clickOnCurrentTabDoesNotRecompose</strong></summary>
 
 Checks that clicking the already-selected Overview tab does not recompose or reset the screen state (e.g., scroll position).
 
+</details>
+
 <a name="test-navigationb1stafftest-navigatebackfromaddtodorestoresstate"></a>
-### NavigationB1StaffTest.navigateBackFromAddToDoRestoresState
+<details>
+  <summary><strong>NavigationB1StaffTest.navigateBackFromAddToDoRestoresState</strong></summary>
 
 Checks that navigating to AddToDo and then back to Overview restores the previous Overview state, including scroll position.
 
+</details>
+
 <a name="test-navigationb1stafftest-navigatebackonoverviewtabexitsapp"></a>
-### NavigationB1StaffTest.navigateBackOnOverviewTabExitsApp
+<details>
+  <summary><strong>NavigationB1StaffTest.navigateBackOnOverviewTabExitsApp</strong></summary>
 
 Checks that pressing the system back button while on the Overview tab closes the app.
 
+</details>
+
 <a name="test-navigationb1stafftest-navigatebetweentabsdonotrestorestate"></a>
-### NavigationB1StaffTest.navigateBetweenTabsDoNotRestoreState
+<details>
+  <summary><strong>NavigationB1StaffTest.navigateBetweenTabsDoNotRestoreState</strong></summary>
 
 Checks that switching between Overview and Map tabs resets the Overview state (e.g., scroll position is lost), rather than restoring it.
 
+</details>
+
 <a name="test-navigationb1stafftest-navigatebetweentabsdonotstack"></a>
-### NavigationB1StaffTest.navigateBetweenTabsDoNotStack
+<details>
+  <summary><strong>NavigationB1StaffTest.navigateBetweenTabsDoNotStack</strong></summary>
 
 Checks that repeatedly switching between Overview and Map tabs does not create multiple stacked instances of the same screen, and pressing back exits the app.
 
+</details>
+
 <a name="test-navigationb1stafftest-navigatetomapfrommapandpressbackgoestooverview"></a>
-### NavigationB1StaffTest.navigateToMapFromMapAndPressBackGoesToOverview
+<details>
+  <summary><strong>NavigationB1StaffTest.navigateToMapFromMapAndPressBackGoesToOverview</strong></summary>
 
 Checks that tapping the Map tab twice keeps the user on the Map screen, and pressing back correctly returns to Overview instead of stacking Map.
+
+</details>
 
