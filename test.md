@@ -1,21 +1,21 @@
-# Bootcamp: B1 Grading Report (SCIPER 303958)
+# Bootcamp: B1 Grading Report (SCIPER 355539)
 
 ## Points Breakdown
 
 | **Task**                                                 | **Points Awarded**                             | **Feedback**                                  |
 | -------------------------------------------------------- | ---------------------------------------------- | --------------------------------------------- |
-| **Belt Level**                                           | **Green🥋🟢**         | Great job! You're building solid foundations.                |
+| **Belt Level**                                           | **Black🥋⚫**         | Fantastic! You've demonstrated true mastery.                |
 | **Public Tests**                                         | 27.5 out of 27.5 points | [See Details](#public-tests)                 |
-| **Staff Tests**                                          | 4.43 out of 5 points | [See Details](#staff-tests)                  |
-| **User Stories**                                         | 6.25 points (avg: 5/5) | [See Details](#user-stories)                 |
-| **Commit Messages**                                      | 6.15 points (avg: 4.92/5) | [See Details](#commit-messages)              |
-| **Total score**                                          | **39.9 points**         |                                               |
+| **Staff Tests**                                          | 5 out of 5 points | [See Details](#staff-tests)                  |
+| **User Stories**                                         | 8.25 points (avg: 5/5) | [See Details](#user-stories)                 |
+| **Commit Messages**                                      | 8.88 points (avg: 4.8/5) | [See Details](#commit-messages)              |
+| **Total score**                                          | **49.63 points**         |                                               |
 
 ---
 
 ## Final Score
 
-- **Grade:** 4.99/6
+- **Grade:** 5.96/6
 
 ---
 
@@ -27,12 +27,12 @@ The B1 grade will be calculated once all components are evaluated.
 
 #### Belt Level and Scoring Details:
 
-- **Belt Level Achieved**: Green Belt
+- **Belt Level Achieved**: Black Belt
 - **Public Tests**: 35/35 passed (100.0%) = 27.5 points
-- **Staff Tests**: 10/11 passed (90.9%) = 4.43 points
-- **User Stories**: 5/5 average (2 stories) = 6.25 points
-- **Commit Messages**: 4.92/5 average (6 commits) = 6.15 points
-- **Total Score**: 39.9 points
+- **Staff Tests**: 11/11 passed (100.0%) = 5 points
+- **User Stories**: 5/5 average (2 stories) = 8.25 points
+- **Commit Messages**: 4.8/5 average (5 commits) = 8.88 points
+- **Total Score**: 49.63 points
 
 #### Scoring Method:
 Points are awarded based on your belt level. Test points use difficulty weighting: 
@@ -101,10 +101,10 @@ Points are awarded based on your belt level. Test points use difficulty weightin
 | NavigationB1StaffTest.clickOnCurrentTabDoesNotRecompose | ✅ passed | 0.71 |
 | NavigationB1StaffTest.navigateBackFromAddToDoRestoresState | ✅ passed | 0.71 |
 | NavigationB1StaffTest.navigateBackOnOverviewTabExitsApp | ✅ passed | 0.43 |
-| NavigationB1StaffTest.navigateBetweenTabsDoNotRestoreState | ❌ failed | 0 |
+| NavigationB1StaffTest.navigateBetweenTabsDoNotRestoreState | ✅ passed | 0.57 |
 | NavigationB1StaffTest.navigateBetweenTabsDoNotStack | ✅ passed | 0.57 |
 | NavigationB1StaffTest.navigateToMapFromMapAndPressBackGoesToOverview | ✅ passed | 0.57 |
-| **Total Staff Tests** | 10/11 passed (90.9%) |
+| **Total Staff Tests** | 11/11 passed (100.0%) |
 
 You can find the staff test descriptions [here](https://github.com/swent-epfl/public/blob/main/bootcamp/docs/staff-test-descriptions.md).
 
@@ -118,8 +118,8 @@ You can find the staff test descriptions [here](https://github.com/swent-epfl/pu
 
 | **User Stories** | **Score [0-5]** | **Comments** |
 | ---------------- | --------------- | ------------ |
-| 1. As a user, I want to set reminders for my ToDos, so that I am notified when a task is due. | 5 | Great job! The story is clear, relevant, and perfectly scoped for the ToDo app, ensuring users can effectively manage their tasks. |
-| 2. As a user, I want to mark my ToDos as completed or archived, so that I can keep my list organized and focus on pending tasks. | 5 | This user story is clear, relevant, and well-scoped, effectively addressing the need for organization and focus within the ToDo app. Great job! |
+| 1. As a user, I want to assign priority levels to my ToDos, so that I can organize my work and focus on the most important tasks first. | 5 | This user story is clear, relevant, and well-scoped, effectively addressing the need for task prioritization in the ToDo app. Great job! |
+| 2. As a user, I want to categorize my ToDos using tags, so that I can organize and filter my task list effectively. | 5 | Great job! The story is clear, relevant, and appropriately scoped, making it easy to understand the value of tagging for task organization. |
 | **Average User Stories Score** | 5 / 5 | |
 
 </details>
@@ -132,13 +132,12 @@ You can find the staff test descriptions [here](https://github.com/swent-epfl/pu
 
 | **Commit messages** | **Score [0-5]** | **Comments** |
 | ------------------- | --------------- | ------------ |
-| chore: update actualTimeB1.csv with time spent on each step | 5 | The commit message is perfect and adheres fully to conventional commit standards. No improvements are needed. |
-| feat: add two new user stories to extend ToDo app functionality | 5 | The commit message is well-crafted and follows conventional commit standards effectively. It clearly describes the feature addition with a concise summary. There are no issues to address, and it demonstrates good practice in commit message writing. |
-| chore(tests): update CI tests for step B1.5 | 5 | The commit message is perfect and adheres fully to conventional commit standards. No issues need to be addressed. |
-| feat(B1.4): implement navigation with Overview, Map, and AddToDo screens<br><br>- Updated MainActivity to host BootcampApp with Scaffold.<br>- Added MapScreen and AddTodoScreen composables for navigation targets.<br>- Integrated navigation to switch between Overview, Map, and AddToDo screens.<br>- Wired floating action button on OverviewScreen to navigate to AddToDoScreen.<br>- Ensured correct display of top bar titles and bottom navigation visibility per screen. | 4.5 | The commit message description is too long and should be concise, ideally under 50 characters. The body contains lines that exceed 72 characters and should be split into shorter lines for better readability. |
-| feat(B1.3): implement OverviewScreen and ToDo state management<br><br>- Added OverviewScreen composable with LazyColumn to display the list of ToDos.<br>- Created TodoListItem reusable composable for displaying individual ToDos.<br>- Integrated OverviewViewModel to manage ToDo state using a repository.<br>- Added FloatingActionButton for creating new ToDos.<br>- Configured ToDosRepositoryProvider with a local repository for local preview | 5 | The commit message is perfect and adheres fully to conventional commit standards. No improvements are needed. |
-| feat(B1.2): add GreetingScreen composable for initial Android setup<br>- Added a GreetingScreen composable that prompts the user to enter their name.<br>- Includes a validate button that displays the entered name on the screen on click. | 5 | The commit message is perfect and adheres fully to conventional commit standards. No improvements are needed. |
-| **Average commit messages score** | 4.92 / 5 | |
+| refactor(todo): improve ToDosRepositoryLocal implementation<br><br>This commit refactors the local ToDo repository to make it more robust and efficient.<br>  - getNewUid: Ensures the generated UID is always unique by checking against the existing list of todos.<br>  - addTodo: Adds a check to prevent adding a todo with a UID that already exists, throwing an IllegalArgumentException.<br>  - editTodo: Improves efficiency by finding the index of the todo and replacing it in-place, rather than deleting and re-adding. This also preserves the order of the items.<br>  - deleteTodo: Adds an exception throw if the item to be removed is not found in the list, making the operation safer. | 5 | The commit message has lines in the body that exceed 72 characters, which should be split into shorter lines to enhance readability. |
+| docs(stories): add new user stories<br><br>This commit adds two new user stories to the project requirements in `userStories.txt`. | 4 | The commit message is clear and detailed but could benefit from improved structure or wording. The body provides meaningful information and valuable context, but it contains lines that exceed 72 characters, which should be split into shorter lines for better readability. |
+| feat(nav): implement app navigation structure<br><br>This commit sets up the primary navigation flow for the application using Jetpack Compose Navigation.<br><br>It introduces a Scaffold to provide a consistent layout with:<br>- A TopAppBar that displays the title of the current screen.<br>- A BottomNavigationBar to switch between the "Overview" and "Map" main screens.<br>- A FloatingActionButton on the Overview screen to navigate to the "AddTodoScreen".<br>- A NavHost that defines the navigation graph between screens. | 5 | The commit message body contains lines that exceed 72 characters, which should be split into shorter lines to improve readability. |
+| feat(overview): implement todo list screen<br><br>This commit introduces the overview screen which displays a list of tasks from an in-memory repository.<br><br>The implementation follows the MVVM architecture:<br>- Model: `ToDosRepositoryLocal` manages the list of todos.<br>- ViewModel: `OverviewViewModel` prepares and exposes the list of todos as a StateFlow for the UI.<br>- View: `OverviewScreen` uses a LazyColumn to efficiently display the tasks, with each item rendered in a Card. | 5 | The commit message contains lines in the body that exceed the recommended 72-character limit, which can hinder readability. It's important to split long lines into shorter ones to enhance clarity. |
+| feat(greeting): implement initial greeting app<br><br>This commit introduces the first feature of the bootcamp: a simple greeting application.<br><br>The implementation uses Jetpack Compose to create a user interface with the following components:<br>  - A text field for the user to enter their name.<br>  - A button to submit the name.<br>  - A text display that shows a personalized greeting message. | 5 | The commit message has lines in the body that exceed 72 characters, which should be split into shorter lines for better readability. |
+| **Average commit messages score** | 4.8 / 5 | |
 
 </details>
 
