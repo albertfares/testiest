@@ -93,18 +93,20 @@ Points are awarded based on your belt level. Test points use difficulty weightin
 
 | **Test Name** | **Result** | **Points** |
 | ------------- | ---------- | ---------- |
-| [OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForDay](javascript:alert('🧪 OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForDay\n\nChecks that the due date displays the day component with two digits (e.g., \"02\" instead of \"2\") in the \"dd/MM/yyyy\" format.')) | ✅ passed | 0.29 |
-| [OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForMonth](javascript:alert('🧪 OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForMonth\n\nChecks that the due date displays the month component with two digits (e.g., \"09\" instead of \"9\") in the \"dd/MM/yyyy\" format.')) | ✅ passed | 0.29 |
-| [OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForYear](javascript:alert('🧪 OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForYear\n\nChecks that the due date displays the year component with four digits (e.g., \"2025\" instead of \"25\") in the \"dd/MM/yyyy\" format.')) | ✅ passed | 0.29 |
-| [OverviewScreenB1StaffTest.todoListIsLazy](javascript:alert('🧪 OverviewScreenB1StaffTest.todoListIsLazy\n\nChecks that the todo list is lazy loaded by creating 100 todos and confirming that the last one is not displayed without scrolling.')) | ✅ passed | 0.14 |
-| [NavigationB1StaffTest.canExitTheAppFromMapWithTwoTapOnBackButton](javascript:alert('🧪 NavigationB1StaffTest.canExitTheAppFromMapWithTwoTapOnBackButton\n\nChecks that pressing the back button twice from the Map tab first returns to Overview and then exits the app.')) | ✅ passed | 0.43 |
-| [NavigationB1StaffTest.clickOnCurrentTabDoesNotRecompose](javascript:alert('🧪 NavigationB1StaffTest.clickOnCurrentTabDoesNotRecompose\n\nChecks that clicking the already-selected Overview tab does not recompose or reset the screen state (e.g., scroll position).')) | ✅ passed | 0.71 |
-| [NavigationB1StaffTest.navigateBackFromAddToDoRestoresState](javascript:alert('🧪 NavigationB1StaffTest.navigateBackFromAddToDoRestoresState\n\nChecks that navigating to AddToDo and then back to Overview restores the previous Overview state, including scroll position.')) | ✅ passed | 0.71 |
-| [NavigationB1StaffTest.navigateBackOnOverviewTabExitsApp](javascript:alert('🧪 NavigationB1StaffTest.navigateBackOnOverviewTabExitsApp\n\nChecks that pressing the system back button while on the Overview tab closes the app.')) | ✅ passed | 0.43 |
-| [NavigationB1StaffTest.navigateBetweenTabsDoNotRestoreState](javascript:alert('🧪 NavigationB1StaffTest.navigateBetweenTabsDoNotRestoreState\n\nChecks that switching between Overview and Map tabs resets the Overview state (e.g., scroll position is lost), rather than restoring it.')) | ❌ failed | 0 |
-| [NavigationB1StaffTest.navigateBetweenTabsDoNotStack](javascript:alert('🧪 NavigationB1StaffTest.navigateBetweenTabsDoNotStack\n\nChecks that repeatedly switching between Overview and Map tabs does not create multiple stacked instances of the same screen, and pressing back exits the app.')) | ✅ passed | 0.57 |
-| [NavigationB1StaffTest.navigateToMapFromMapAndPressBackGoesToOverview](javascript:alert('🧪 NavigationB1StaffTest.navigateToMapFromMapAndPressBackGoesToOverview\n\nChecks that tapping the Map tab twice keeps the user on the Map screen, and pressing back correctly returns to Overview instead of stacking Map.')) | ✅ passed | 0.57 |
+| OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForDay | ✅ passed | 0.29 |
+| OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForMonth | ✅ passed | 0.29 |
+| OverviewScreenB1StaffTest.dueDateIsCorrectlyFormattedForYear | ✅ passed | 0.29 |
+| OverviewScreenB1StaffTest.todoListIsLazy | ✅ passed | 0.14 |
+| NavigationB1StaffTest.canExitTheAppFromMapWithTwoTapOnBackButton | ✅ passed | 0.43 |
+| NavigationB1StaffTest.clickOnCurrentTabDoesNotRecompose | ✅ passed | 0.71 |
+| NavigationB1StaffTest.navigateBackFromAddToDoRestoresState | ✅ passed | 0.71 |
+| NavigationB1StaffTest.navigateBackOnOverviewTabExitsApp | ✅ passed | 0.43 |
+| NavigationB1StaffTest.navigateBetweenTabsDoNotRestoreState | ❌ failed | 0 |
+| NavigationB1StaffTest.navigateBetweenTabsDoNotStack | ✅ passed | 0.57 |
+| NavigationB1StaffTest.navigateToMapFromMapAndPressBackGoesToOverview | ✅ passed | 0.57 |
 | **Total Staff Tests** | 10/11 passed (90.9%) |
+
+You can find the staff test descriptions [here](https://github.com/swent-epfl/public/blob/main/bootcamp/docs/staff-test-descriptions.md).
 
 </details>
 
