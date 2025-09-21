@@ -97,6 +97,9 @@
 | ToDosRepositoryLocalTest.updateToDo_succeeds | ✅ passed | 0.88 |
 | **Total Public Tests** | 35/35 passed (100.0%) | 27.5 |
 
+> [!NOTE]
+> You can find detailed test logs and execution details in your GitHub repository.
+
 </details>
 
 ---
@@ -121,6 +124,9 @@
 | **Total Staff Tests** | 10/11 passed (90.9%) | 4.43 |
 
 *Hover over test names above to see detailed descriptions. Note: This feature works best when viewing the report in a desktop web browser.*
+
+> [!NOTE]
+> You can find detailed test logs and execution details in your GitHub repository.
 
 </details>
 
